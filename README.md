@@ -102,6 +102,8 @@ scores = score_investments(summaries)
 sorted_investors = sorted(scores.items(), key=lambda item: item[1], reverse=True)
 
 print(sorted_investors)
+```
+
 ### Contributing
 - ** Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -115,3 +117,4 @@ print(sorted_investors)
 requests
 beautifulsoup4
 openai
+```
